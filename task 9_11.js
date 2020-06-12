@@ -218,21 +218,30 @@ var secVal = +prompt("Enter Second degit");
 
 if(opr === "+"){
 
+    // add value 
+
     alert(firstVal + secVal);
 }
 else if(opr === "-"){
 
+    //subtract value
+
     alert(firstVal - secVal);
 }
 else if(opr === "*"){
+    // mulitply value
 
     alert(firstVal * secVal);
 }
 else if(opr === "/"){
 
+    // Divid value
+
     alert(firstVal / secVal);
 }
 else if(opr === "%"){
+
+    // use of modulus
 
     alert(firstVal % secVal);
 }
