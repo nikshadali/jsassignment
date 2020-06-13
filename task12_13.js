@@ -84,7 +84,7 @@ document.write(greeting);
 
  //7. Write a program that takes time as input from user in 24 hours clock format like:
 
-var currTime = new Date(2020, 6, 12, 23);
+var currTime = new Date();
 currTime = currTime.getHours();
 var greeting;
 if(currTime === 00 && currTime < 12){
